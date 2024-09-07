@@ -1,0 +1,249 @@
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+*{
+    font-family: 'roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: lightblue;
+    height: 100vh;
+    color: white;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px 30px 40px
+}
+
+.logo-text h1{
+    font-size: 35px;
+}
+
+.list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 93px;
+    margin-top: 20px;
+    
+}
+
+.list-items p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-items-bottom{
+    margin-top: 50px;
+}
+
+.main{
+    background-color: pink;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.form-input{
+    width: 600px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin-left: 20px;
+}
+
+.nav-avatar{
+    margin: 0 20px;
+}
+
+.left img{
+    border-radius: 50%;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.btn{
+    background-color: pink;
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
+    color: white;
+}
+
+.profile-left{
+    margin-right: 20px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: greenyellow;
+}
+
+.projects{
+    margin-top: 30px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 80%;
+    height: 180px;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    margin: 30px 0;
+    margin-left: 15px;
+    padding: 15px;
+    padding-right: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.ann-trend{
+    display: flex;
+    flex-direction: column;
+}
+
+.ann-trend h4{
+    font-size: 20px;
+}
+
+.announce{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.announce-upper{
+    margin-top: 25px;
+}
+
+.announce-upper h4{
+    margin-bottom: 15px;
+}
+
+.announce-box{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.announce h6{
+    font-size: 15px;
+}
+
+.trending{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.trending-upper{
+    margin: 15px 0;
+}
+
+.trending-upper h4{
+    margin-bottom: 15px;
+}
+
+.users{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-baby{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.users img{
+    border-radius: 50%;
+}
