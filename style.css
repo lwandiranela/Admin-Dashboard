@@ -265,3 +265,11 @@
 .users img{
     border-radius: 50%;
 }
+
+.users h6{
+    font-size: 15px;
+}
+
+.users p{
+    font-size: 15px;
+}
